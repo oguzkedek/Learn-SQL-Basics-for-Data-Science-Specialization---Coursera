@@ -1,4 +1,3 @@
-
 -- Question 1 
 -- Find all the tracks that have a length of 5,000,000 milliseconds or more.
 
@@ -81,5 +80,3 @@ SELECT AlbumId
 FROM tracks
 GROUP BY AlbumId
 HAVING COUNT(DISTINCT (trackid)) >= 12
-
- 
