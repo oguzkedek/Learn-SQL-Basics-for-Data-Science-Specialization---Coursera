@@ -8,7 +8,7 @@ WHERE AlbumId = (
 		SELECT AlbumId
 		FROM Albums
 		WHERE Title = 'Californication'
-		) LIMIT 8
+		) 
 		
 -- Question 2
 -- Find the total number of invoices for each customer along with the customer's full name, city and email.
